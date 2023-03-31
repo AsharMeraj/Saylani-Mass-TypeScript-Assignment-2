@@ -94,7 +94,7 @@ class Truck extends Vehicle{
         Company: string,  
         Name: string, 
         Year: number,      
-        public Horsepower: number,
+        private Horsepower: number,
         public Rented: boolean
        ){
         super(Company, Name, Year, Rented);
